@@ -1,0 +1,245 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+   width: 100%;
+   height: 80vh;
+   background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('Tour-&-travel.jpg');
+   background-size: cover;
+   font-family: sans-serif;
+}
+
+nav{
+   width: 100%;
+   height: 100px;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logo{
+   font-size: 2em;
+   letter-spacing: 2px;
+}
+
+.menu a{
+   text-decoration: none;
+   color: white;
+   padding: 10px 20px;
+   font-size: 20px;
+   position: relative;
+}
+
+.menu a:before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   border-bottom: 2px solid indianred;
+   transition: 0.4s linear;
+}
+
+.menu a:hover:before{
+   width: 90%;
+}
+
+.register-btn a{
+   text-decoration: none;
+   color: white;
+   padding: 10px 20px;
+   font-size: 20px;
+   background: indianred;  
+   border-radius: 8px;
+   transition: 0.4s;
+}
+
+.register-btn a:hover{
+   background: transparent;
+   border: 1px solid indianred;
+}
+
+.h-txt{
+   max-width: 650px;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   color: white;
+}
+
+.h-txt span{
+   letter-spacing: 5px;
+}
+
+.h-txt h1{
+   font-size: 3.5em;
+}
+
+.h-txt a{
+   text-decoration: none;
+   background: indianred;
+   color: white;
+   padding: 10px 20px;
+   letter-spacing: 5px;
+   transition: 0.4s;
+}
+
+.h-txt a:hover{
+   background: transparent;
+   border: 1px solid indianred;
+}
+.sectionTag{
+   padding: 16px 0;
+}
+
+.btn-dark{
+   color: black;
+   border: 2px solid grey;
+}
+.section{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   max-width: 80%;
+   margin: auto;
+   font-family: 'Ubuntu', sans-serif;
+   padding: 16px 0;
+}
+
+.section-left{
+   flex-direction: row-reverse;
+}
+
+.paras{
+   padding: 0px 65px;
+}
+
+.sectionSubTag{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+   width: 250px;
+   border: 2px solid black;
+   border-radius: 26px;
+   margin-top: 19px;
+}
+
+.contact{
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2));
+   background-color: rgb(47, 170, 246);;
+   height: 833px;
+}
+
+.contact h2{
+   font-size: 2rem;
+   color: white;
+}
+
+.text-center{
+   text-align: center;
+   padding-top: 20px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 35px;
+   color: white;
+   font-family: sans-serif;
+   letter-spacing: 2px;  
+}
+
+.form{
+   max-width: 62%;
+   margin: 25px auto;
+   
+}
+
+.form-input{
+   margin: 15px 0;
+   padding: 5px 3px;
+   width: 100%;
+   font-size: 19px;
+   border: 2px solid grey;
+   border-radius: 6px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.form a{
+   text-decoration: none;
+   color: white;
+   padding: 8px 17px;
+   font-size: 17px;
+   font-family: sans-serif;
+   background: indianred;  
+   border-radius: 8px;
+   transition: 0.4s;
+   
+}
+
+.form a:hover{
+   background: transparent;
+   border: 1px solid indianred;
+}
+
+.text-footer{
+   text-align: center;
+   padding: 20px 0;
+   font-family: 'Ubuntu', sans-serif;
+   display: flex;
+   justify-content: center;
+   background-color: indianred;
+   color: white;
+}
+
+.text-center{
+   text-align: center;
+   color: black;
+}
+
+.my-2{
+   margin-top: 26px;
+   margin-bottom: 26px;
+}
+
+.section2{
+   padding-left: 63px;
+   padding-right: 63px;
+}
+
+.box{
+   padding: 8px 0;
+   margin: 12px 22px;
+   min-width: 20vw;
+   border: 2px solid rgb(120, 54, 16);
+   border-radius: 8px;
+   text-align: center;
+}
+
+.highlighted{
+   font-size: 1.2rem;
+   font-weight: bolder;
+}
+
+.box ul{
+   list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.section2 h1{
+   font-size: 2rem;
+}
+
+.boxes{
+   display: flex;
+   font-family: sans-serif;
+   justify-content: center;
+}
